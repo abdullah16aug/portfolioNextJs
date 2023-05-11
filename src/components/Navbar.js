@@ -64,8 +64,8 @@ const Navbar = () => {
             aria-controls="navbar-default"
             aria-expanded="false"
           >
-            <span className="sr-only">Open main menu</span>
-            <svg
+            {/* <span className="sr-only">Open main menu</span> */}
+            {/* <svg
               className="w-6 h-6"
               aria-hidden="true"
               fill="currentColor"
@@ -77,7 +77,7 @@ const Navbar = () => {
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                 clipRule="evenodd"
               ></path>
-            </svg>
+            </svg> */}
           </button>
           <div className="hidden w-full md:block md:w-auto" id="navbar-default">
             <ul className="font-medium flex content-center items-center flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
